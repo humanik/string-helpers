@@ -1,4 +1,7 @@
 {
+  "name": "humanik/string-helpers",
+  "description": "String helpers",
+  "type": "library",
   "require": {
     "ext-mbstring": "*"
   },
