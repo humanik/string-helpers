@@ -17,7 +17,7 @@ if ( ! function_exists( 'str_spintax' ) ) {
 		return preg_replace_callback(
 			'/{(((?>[^{}]+)|(?R))*)}/x',
 			function ( $text ) {
-				$text  = str_spintax( $text[1] );
+				$text = str_spintax( $text[1] );
 				$parts = explode( '|', $text );
 
 				return $parts[ array_rand( $parts ) ];
